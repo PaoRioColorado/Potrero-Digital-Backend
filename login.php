@@ -9,8 +9,7 @@ $contrasenia= "1234";
 if ($usuario=="$user" && $contrasenia=="$pass") {
     header ("location: https://careers-meli.mercadolibre.com/");
 } else {
-    header("location:error.html");
+    header("location:/error.html");
   }
-  
-  
+
    ?>
